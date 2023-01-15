@@ -2,8 +2,9 @@
   "name": "star-wars",
   "version": "1.0.0",
   "description": "",
-  "main": "/views/index.ejs",
+
   "scripts": {
+    "start": "node index.ejs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js"
   },
